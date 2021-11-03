@@ -18,4 +18,15 @@ public class Student {
         
     }
 
+    // value constructor
+    public Student(int studentID, int gradeLevel, double GPA, String studentName) {
+        this.studentID = studentID;
+        this.studentName = gradeLevel;
+        this.gradePointAge = GPA;
+        this.studentName = studentName;
+
+    public Student (int studentID, String studentName) {
+        
+    }
+    }
 }
