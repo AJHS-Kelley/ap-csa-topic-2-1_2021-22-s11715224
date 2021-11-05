@@ -29,28 +29,32 @@ public class Student {
         this.gradeLevel = 9;
         this.gradePointAge = 4.0;
     }
-    
-}
-//parameters and arguments
-public static void assignLunch(int gradeLevel) {
+public static void main(String[]args); {
+   
+} 
+
+     //parameters and arguments
+    public static void assignLunch(int gradeLevel) {
     String lunchPeriod;
 
-    if (gradeLevel == 9){
-        lunchPeriod = "Fourth Lunch";
-        System.out.print("This student has ");
-        System.out.println(lunchPeriod);
-    }else if (gradeLevel == 10){
-        lunchPeriod = "Third Lunch";
-        System.out.print("This student has ");
-        System.out.println(lunchPeriod);
-    }else if (gradeLevel == 11){
-        lunchPeriod = "Second Lunch";
-        System.out.print("This student has ");
-        System.out.println(lunchPeriod);
-    }else (gradeLevel == 12){
-        lunchPeriod = "First Lunch or Off-Campus Lunch";
-        System.out.print("This student has ");
-        System.out.println(lunchPeriod);
-    }
-     
+        if (gradeLevel == 9){
+            lunchPeriod = "Fourth Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else if (gradeLevel == 10){
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else if (gradeLevel == 11){
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else {
+            lunchPeriod = "First Lunch or Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+ 
+    }    
 }
+
