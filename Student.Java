@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/05/2021, v.0.3
+// Unit 2, Topic 2.1, Classes and Objects, 11/15/2021, v.0.4
 
 public class Student {
     // these are instance variable
@@ -43,7 +43,7 @@ public class Student {
     }
      //parameters and arguments
     public static void assignLunch(int gradeLevel) {
-    String lunchPeriod;
+        String lunchPeriod;
 
         if (gradeLevel == 9){
             lunchPeriod = "Fourth Lunch";
@@ -65,8 +65,33 @@ public class Student {
  
     }    
 
+    public static void assignLunchMultiple(double gradePointAge, int gradeLevel) {
+        String lunchPeriod;
+        // and, or, not, -- bollean operators
+        //&& -- and 
+        // || -- or
+        //! -- not
 
 
+
+        if (gradeLevel == 9 || gradePointAge <= 1.5){
+            lunchPeriod = "Fourth Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else if (gradeLevel == 10 && gradePointAge > 2.0){
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else if (gradeLevel == 11 && (gradePointAge != 0.0){
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }else {
+            lunchPeriod = "First Lunch or Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+    }
 
 
 
