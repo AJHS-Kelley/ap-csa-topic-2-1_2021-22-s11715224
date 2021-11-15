@@ -93,8 +93,17 @@ public class Student {
         }
     }
 
+    public static void main(String[] args) {
+        Student student0= new Student();
+        Student student1 = new Student(12345678, 11, 0.57, "Dr,Strange");
 
-
+        System.out.println("hello there!");
+        threeLine();
+        System.out.println("General Kenobi");
+        calGPA():
+        assignlunch(9);
+        assignLunchMultiple(11,3.3);
+    }
 
 
 }
