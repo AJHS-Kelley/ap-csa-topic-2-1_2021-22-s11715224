@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/15/2021, v.0.4
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.4
 
 public class Student {
     // these are instance variable
@@ -93,6 +93,17 @@ public class Student {
         }
     }
 
+
+    public static void mathPractice() {
+        int x;
+        int y;
+        Scanner myScanner = new Scanner(System.in);
+        x = myScanner.nextInt();
+        y = myScanner.nextInt();
+        Math.min(x, y);
+
+
+    }
     public static void main(String[] args) {
         Student student0= new Student();
         Student student1 = new Student(12345678, 11, 0.57, "Dr,Strange");
