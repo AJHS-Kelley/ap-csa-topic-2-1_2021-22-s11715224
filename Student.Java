@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.4
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.6
 
 public class Student {
     // these are instance variable
@@ -30,17 +30,7 @@ public class Student {
         this.gradePointAge = 4.0;
     }
  
-    public static void main(String[]args); {
-        //hello there!...general Kenobi codestuff
 
-
-
-
-
-
-
-        
-    }
      //parameters and arguments
     public static void assignLunch(int gradeLevel) {
         String lunchPeriod;
@@ -100,8 +90,12 @@ public class Student {
         Scanner myScanner = new Scanner(System.in);
         x = myScanner.nextInt();
         y = myScanner.nextInt();
-        Math.min(x, y);
+        System.out.println(Math.min(x, y));
 
+
+        int lowest;
+        lowest = Math.min(x,y);
+        System.out.println(lowest);
 
     }
     public static void main(String[] args) {
