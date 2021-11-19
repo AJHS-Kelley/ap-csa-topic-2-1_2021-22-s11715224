@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.6
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.7
 
 public class Student {
     // these are instance variable
@@ -116,7 +116,7 @@ public class Student {
 
 
 
-
+    
 
 
     }
