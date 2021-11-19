@@ -19,7 +19,7 @@ public class Student {
     // value constructor
     public Student(int studentID, int gradeLevel, double GPA, String studentName) {
         this.studentID = studentID;
-        this.studentName = gradeLevel;
+        this.gradeLevel = gradeLevel;
         this.gradePointAge = GPA;
         this.studentName = studentName;
     }
@@ -72,7 +72,7 @@ public class Student {
             lunchPeriod = "Third Lunch";
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
-        }else if (gradeLevel == 11 && (gradePointAge != 0.0){
+        }else if (gradeLevel == 11 && (gradePointAge != 0.0)) {
             lunchPeriod = "Second Lunch";
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
@@ -88,26 +88,40 @@ public class Student {
         int x;
         int y;
         Scanner myScanner = new Scanner(System.in);
+        System.out.println("please print out an integer.\n");
         x = myScanner.nextInt();
+        System.out.println("please print out an integer.\n");
         y = myScanner.nextInt();
         System.out.println(Math.min(x, y));
-
 
         int lowest;
         lowest = Math.min(x,y);
         System.out.println(lowest);
 
+        System.out.println("we will use Math.pow() to calculate. \n");
+        System.out.println(Math.pow(x, y));
+
+        double exponents;
+        exponents = Math.pow(x, y);
+        System.out.println(exponents);
+
+        System.out.println("next we'll use Math.randon().\n");
+        System.out.println(Math.random());
+
+        double percentage;
+        percentage = (Math.random() * 100);
+        System.out.print("there is a ");
+        System.out.print(percentage);
+        System.out.println("% chance of rain today");
+
+
+
+
+
+
     }
     public static void main(String[] args) {
-        Student student0= new Student();
-        Student student1 = new Student(12345678, 11, 0.57, "Dr,Strange");
-
-        System.out.println("hello there!");
-        threeLine();
-        System.out.println("General Kenobi");
-        calGPA():
-        assignlunch(9);
-        assignLunchMultiple(11,3.3);
+      
     }
 
 
