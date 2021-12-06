@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.8
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.9
 
 public class Student {
     // these are instance variable
@@ -127,10 +127,20 @@ public class Student {
         double fakeGPA;
         fakeGPA = (grade0 + grade1 + grade2) / 3;
 
+        return fakeGPA;
 
     }
     public static void main(String[] args) {
       
+
+        double realGPA;
+        realGPA = -1.0;
+        System.out.println(realGPA);
+        realGPA = getGPA();
+        System.out.println(realGPA);
+
+
+
     }
 
 
