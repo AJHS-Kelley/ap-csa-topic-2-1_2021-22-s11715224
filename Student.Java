@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.9
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.10
 
 public class Student {
     // these are instance variable
@@ -139,10 +139,19 @@ public class Student {
         realGPA = getGPA();
         System.out.println(realGPA);
 
+    }
+
+    public static String getStudentName() {
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("please print the student name");
+        
+        String getStudentName;
+        getStudentName = myScanner.nextLine();
+
+        return getStudentName;
 
 
     }
-
 
 }
 
