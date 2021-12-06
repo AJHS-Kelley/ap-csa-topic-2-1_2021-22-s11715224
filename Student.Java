@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.7
+// Unit 2, Topic 2.1, Classes and Objects, 11/18/2021, v.0.8
 
 public class Student {
     // these are instance variable
@@ -115,8 +115,17 @@ public class Student {
         System.out.println("% chance of rain today");
 
 
+    }
 
-    
+    public static double getGPA() {
+        int grade0, grade1, grade2;
+
+        grade0 = 24;
+        grade1 = 42;
+        grade2 = 5;
+
+        double fakeGPA;
+        fakeGPA = (grade0 + grade1 + grade2) / 3;
 
 
     }
